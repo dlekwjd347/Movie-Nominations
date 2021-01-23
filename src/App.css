@@ -1,0 +1,204 @@
+
+
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(0.93);
+	
+}
+
+.resultsbody  {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+	margin-top: 5vh;
+} 
+
+.shoppiesHead {
+	height:40px;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	background: url(./assets/popcorn.svg);
+	background-repeat: no-repeat;
+	line-height: 100%;
+	
+}
+
+h1 {
+	margin-left: 30px;
+	display: block;
+}
+.nomHeading {
+	margin-left: 10px;
+	font-style: italic;
+}
+
+h4, h5 {
+  color: black;
+}
+
+.moviesHeading {
+  font-weight: bold;
+}
+
+.formControl {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 3px solid black;
+	color: black;
+	width: 250px;
+}
+
+.nominateBtn {
+	border-radius: 30px;
+	background-color:#9BF3F0;
+	
+}
+
+.nominateBtn:hover {
+	background-color: #0080ff
+}
+
+.removeBtn {
+	border-radius: 30px;
+	background-color: tomato;
+}
+
+.removeBtn:active {
+	background-color: tomato;
+	box-shadow: 0 5px rgb(71, 66, 66);
+	transform: translateY(4px);
+}
+
+/* label {
+	position: relative;
+}
+
+label:before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+  }
+
+  input {
+	padding: 10px 30px;
+  } */
+
+img {
+	height: 250px;
+}
+
+.awardpic {
+	height: 200px;
+}
+
+.allNominatedMovies {
+	border-color: white;
+	border-width: 20px;
+}
+
+.movieInfo {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.movieBox {
+	margin: 5px;
+	
+}
+
+.btncenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.light-mode {
+	background: white;
+	color: black;
+}
+
+.light-mode .moonToggle {
+	color: black;
+}
+
+.dark-mode {
+	background-color: #1a1919;
+	color: white;
+	height: 100vh;
+  }
+
+.dark-mode .formControl {
+	border-bottom: 3px solid white;
+}
+
+.dark-mode .shoppiesHead {
+	height:40px;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	background: url(./assets/white-popcorn.svg);
+	background-repeat: no-repeat;
+	line-height: 100%;
+	
+}
+
+.dark-mode .moonToggle {
+	fill: white;
+}
+
+.dark-mode h4, h5 {
+	color: white;
+}
+
+.label {
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	color: #394a56;
+  }
+ 
+  
+  .labelToggle {
+	isolation: isolate;
+	position: relative;
+	height: 20px;
+	width: 40px;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow:
+	  
+	  4px 4px 4px 0px #d1d9e6 inset,
+	  -4px -4px 4px 0px #ffffff inset;
+  }
+  
+  .toggle-state {
+	display: none;
+  }
+  
+  .indicator {
+	height: 100%;
+	width: 200%;
+	background: #ecf0f3;
+	border-radius: 15px;
+	transform: translate3d(-75%, 0, 0);
+	transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+	box-shadow:
+	  -8px -4px 8px 0px #ffffff,
+	  8px 4px 12px 0px #d1d9e6;
+  }
+  
+  .toggle-state:checked ~ .indicator {
+	transform: translate3d(25%, 0, 0);
+  }
+  
+  .appToggle {
+	  padding-top: 10px;
+  }
