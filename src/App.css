@@ -49,8 +49,8 @@ h4, h5 {
 	border: 0;
 	outline: 0;
 	background: transparent;
-	border-bottom: 3px solid black;
-	color: black;
+	border-bottom: 3px solid white;
+	color: white;
 	width: 250px;
 }
 
@@ -156,6 +156,11 @@ img {
 
 .dark-mode h4, h5 {
 	color: white;
+}
+
+.dark-mode .row {
+	background-color: #1a1919;
+	height: 100%;
 }
 
 .label {
