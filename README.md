@@ -24,9 +24,8 @@ Initialize your workspace by running:
 yarn
 ```
 
-**The Shoppies: Movie awards for entrepreneurs**
 
-Shopify has branched out into movie award shows and this app to helps manage movie nominations for the upcoming Shoppies.
+This app to helps manage movie nominations for the upcoming movies.
 
 
 ## The App
